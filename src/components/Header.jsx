@@ -175,7 +175,7 @@ const Header = () => {
                     </div>
 
                     {isOpen && (
-                        <div className="absolute top-full left-0 mt-[8px] bg-white border border-[#80868b] rounded-[8px] shadow-md w-full max-w-[180px]">
+                        <div className="absolute z-50 top-full left-0 mt-[8px] bg-white border border-[#80868b] rounded-[8px] shadow-md w-full max-w-[180px]">
                         <ul className="space-y-[8px] p-[8px]">
                             <li
                             className="cursor-pointer text-[#101828] text-[14px] hover:bg-gray-100 px-[12px] py-[6px] rounded-[6px]"
